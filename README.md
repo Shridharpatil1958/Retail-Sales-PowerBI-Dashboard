@@ -81,22 +81,6 @@ Location-based performance evaluation
 - **Regional Analysis**: South, West, North comparison
 - **Contribution Analysis**: Store revenue share
 
-### 4️⃣ **Inventory Management**
-Stock optimization and reorder planning
-- **Inventory Status Table**: Stock levels vs reorder points
-- **Low Stock Alerts**: Products requiring immediate attention
-- **Stock by Category**: Inventory distribution visualization
-- **Product-Store Matrix**: Stock levels heat map
-- **Restock Timeline**: Historical restocking patterns
-
-### 5️⃣ **Trends & Forecast**
-Predictive insights and pattern analysis
-- **Revenue Forecast**: 3-6 month projection with confidence intervals
-- **Decomposition Tree**: AI-powered revenue driver analysis
-- **Key Influencers**: Factors affecting profit margin
-- **Seasonal Patterns**: Month-over-month comparison by year
-- **Cumulative Growth**: Year-to-date revenue tracking
-
 ---
 
 ## 📊 Dataset Information
@@ -178,14 +162,6 @@ The dashboard integrates five interconnected datasets:
 ![Store Performance](images/screenshots/store_performance.png)
 *Location-based insights and regional comparison*
 
-### Inventory Management
-![Inventory Dashboard](images/screenshots/inventory_management.png)
-*Stock levels, alerts, and optimization*
-
-### Trends & Forecast
-![Trend Analysis](images/screenshots/trends_forecast.png)
-*Predictive analytics and pattern recognition*
-
 ---
 
 ## 📈 Key Metrics
@@ -258,33 +234,7 @@ retail-sales-powerbi-dashboard/
 │
 ├── reports/                           # Power BI files
 │   ├── RetailSalesDashboard.pbix     # Main dashboard file
-│   └── RetailSalesDashboard.pdf      # Exported PDF version
-│
-├── images/                            # Visual assets
-│   ├── screenshots/                   # Dashboard screenshots
-│   │   ├── executive_overview.png
-│   │   ├── sales_analysis.png
-│   │   ├── store_performance.png
-│   │   ├── inventory_management.png
-│   │   └── trends_forecast.png
-│   └── backgrounds/                   # Dashboard backgrounds
-│       ├── dashboard_background.png
-│       ├── dashboard_background_minimal.png
-│       └── dashboard_background_corporate.png
-│
-├── docs/                              # Documentation
-│   ├── PowerBI_Dashboard_Guide.md    # Complete setup guide
-│   ├── Background_Usage_Guide.md     # Background usage instructions
-│   ├── Detailed_Project_Description.md # Comprehensive project details
-│   ├── GitHub_Setup_Guide.md         # GitHub repository guide
-│   └── DAX_Measures.md               # DAX formulas reference
-│
-└── scripts/                           # Automation scripts (optional)
-    └── data_preparation.py           # Python data prep script
-```
-
----
-
+│   └── RetailSalesDashboard.pdf      # Exported 
 ## 💻 Installation
 
 ### **Method 1: Download ZIP**
@@ -613,7 +563,7 @@ Need help or have questions?
 
 ### **v1.0.0** (January 2026)
 - ✅ Initial release
-- ✅ 5 interactive dashboard pages
+- ✅ 3 interactive dashboard pages
 - ✅ 20+ DAX measures
 - ✅ Complete documentation
 - ✅ Professional backgrounds
@@ -623,15 +573,6 @@ Need help or have questions?
 - ✅ Core features implemented
 - ✅ User testing completed
 
----
-
-## 📈 Repository Stats
-
-![GitHub repo size](https://img.shields.io/github/repo-size/YOUR_USERNAME/retail-sales-powerbi-dashboard)
-![GitHub stars](https://img.shields.io/github/stars/YOUR_USERNAME/retail-sales-powerbi-dashboard?style=social)
-![GitHub forks](https://img.shields.io/github/forks/YOUR_USERNAME/retail-sales-powerbi-dashboard?style=social)
-![GitHub issues](https://img.shields.io/github/issues/YOUR_USERNAME/retail-sales-powerbi-dashboard)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/YOUR_USERNAME/retail-sales-powerbi-dashboard)
 
 ---
 
@@ -640,13 +581,3 @@ Need help or have questions?
 **Made with ❤️ and Power BI**
 
 ⭐ **Star this repo** if you find it helpful!
-
-[Report Bug](https://github.com/YOUR_USERNAME/retail-sales-powerbi-dashboard/issues) · 
-[Request Feature](https://github.com/YOUR_USERNAME/retail-sales-powerbi-dashboard/issues) · 
-[View Demo](https://github.com/YOUR_USERNAME/retail-sales-powerbi-dashboard)
-
----
-
-**© 2026 Your Name. All Rights Reserved.**
-
-</div>
