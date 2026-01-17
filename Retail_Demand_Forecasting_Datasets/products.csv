@@ -1,0 +1,11 @@
+Product_ID,Product_Name,Category,Cost_Price,Reorder_Level
+101,Product 1,Electronics,683,37
+102,Product 2,Clothing,597,27
+103,Product 3,Grocery,724,33
+104,Product 4,Home,206,26
+105,Product 5,Sports,389,47
+106,Product 6,Electronics,924,40
+107,Product 7,Clothing,728,47
+108,Product 8,Grocery,731,46
+109,Product 9,Home,246,23
+110,Product 10,Sports,426,36
