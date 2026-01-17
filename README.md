@@ -1,33 +1,5 @@
 # 📊 Retail Sales Analytics Dashboard
 
-![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
-
-A comprehensive retail analytics dashboard built with Power BI, providing actionable insights into sales performance, inventory management, and store operations across multiple locations in India.
-
----
-
-## 📑 Table of Contents
-
-- [Overview](#-overview)
-- [Key Features](#-key-features)
-- [Dashboard Pages](#-dashboard-pages)
-- [Dataset Information](#-dataset-information)
-- [Technologies Used](#-technologies-used)
-- [Getting Started](#-getting-started)
-- [Screenshots](#-screenshots)
-- [Key Metrics](#-key-metrics)
-- [Business Impact](#-business-impact)
-- [Project Structure](#-project-structure)
-- [Installation](#-installation)
-- [Usage](#-usage)
-- [Contributing](#-contributing)
-- [License](#-license)
-- [Contact](#-contact)
-
----
-
 ## 🎯 Overview
 
 This Power BI dashboard transforms raw retail transaction data into actionable business intelligence, enabling data-driven decision-making across sales, inventory, and store operations. Built on a robust star schema data model with advanced DAX calculations, the dashboard provides real-time insights into revenue performance, profit margins, inventory optimization, and regional sales patterns.
