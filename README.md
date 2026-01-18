@@ -151,15 +151,15 @@ The dashboard integrates five interconnected datasets:
 ## 📸 Screenshots
 
 ### Executive Overview
-![Executive Dashboard](images/screenshots/executive_overview.png)
+<img width="1542" height="822" alt="Screenshot 2026-01-17 171139" src="https://github.com/user-attachments/assets/febbfd72-990e-4705-b04a-7767ed9c8e6a" />
 *High-level KPIs and performance summary*
 
 ### Sales Analysis
-![Sales Analysis](images/screenshots/sales_analysis.png)
+<img width="1543" height="818" alt="Screenshot 2026-01-17 171214" src="https://github.com/user-attachments/assets/877ec550-97bd-4315-82a1-5db888446f12" />
 *Detailed product and category performance*
 
 ### Store Performance
-![Store Performance](images/screenshots/store_performance.png)
+<img width="1536" height="840" alt="Screenshot 2026-01-17 171230" src="https://github.com/user-attachments/assets/1ee27fb1-ffab-4dcf-880f-c3d6215af353" />
 *Location-based insights and regional comparison*
 
 ---
@@ -402,19 +402,6 @@ Contributions are welcome! Here's how you can help:
 - 🧪 Unit tests for DAX measures
 
 ---
-
-## 📝 Documentation
-
-Comprehensive documentation is available in the `/docs` folder:
-
-- **[Complete Setup Guide](docs/PowerBI_Dashboard_Guide.md)** - Step-by-step dashboard creation
-- **[Background Usage Guide](docs/Background_Usage_Guide.md)** - How to use dashboard backgrounds
-- **[Detailed Project Description](docs/Detailed_Project_Description.md)** - In-depth project overview
-- **[GitHub Setup Guide](docs/GitHub_Setup_Guide.md)** - Repository management
-- **[DAX Measures Reference](docs/DAX_Measures.md)** - All DAX formulas explained
-
----
-
 ## 🐛 Troubleshooting
 
 ### **Common Issues**
@@ -508,23 +495,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👤 Author
 
-**Your Name**
+**Shridhar Patil**
 
-- 🌐 Portfolio: [yourwebsite.com](https://yourwebsite.com)
-- 💼 LinkedIn: [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
-- 🐙 GitHub: [@yourusername](https://github.com/yourusername)
-- 📧 Email: your.email@example.com
-- 🐦 Twitter: [@yourhandle](https://twitter.com/yourhandle)
-
----
-
-## 🙏 Acknowledgments
-
-- **Microsoft Power BI Team** - For creating an amazing BI platform
-- **Power BI Community** - For inspiration and best practices
-- **SQLBI** - For DAX patterns and optimization techniques
-- **Guy in a Cube** - For Power BI tutorials and tips
-- **Data Sources** - Sample retail dataset for demonstration
+- 🌐 Portfolio: [yourwebsite.com](https://chrono-skill-viz.lovable.app/)
+- 💼 LinkedIn: [linkedin.com/in/yourprofile](www.linkedin.com/in/shridhar-patil-908480220)
+- 🐙 GitHub: [@yShridharpatil1958](https://github.com/Shridharpatil1958)
+- 📧 Email: patilshridhar1958@gmail.com
 
 ---
 
@@ -545,17 +521,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 If you find this project useful, please consider giving it a ⭐!
 
 It helps others discover the project and motivates continued development.
-
----
-
-## 📞 Support
-
-Need help or have questions?
-
-- 📖 Check the [Documentation](docs/)
-- 🐛 [Open an Issue](https://github.com/YOUR_USERNAME/retail-sales-powerbi-dashboard/issues)
-- 💬 [Start a Discussion](https://github.com/YOUR_USERNAME/retail-sales-powerbi-dashboard/discussions)
-- 📧 Email: your.email@example.com
 
 ---
 
