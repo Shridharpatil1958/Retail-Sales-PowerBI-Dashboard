@@ -1,548 +1,239 @@
-# 📊 Retail Sales Analytics Dashboard
+<div align="center">
 
-## 🎯 Overview
+# 🛍️ Retail Intelligence Hub
+### Transforming Retail Data into Strategic Business Decisions
 
-This Power BI dashboard transforms raw retail transaction data into actionable business intelligence, enabling data-driven decision-making across sales, inventory, and store operations. Built on a robust star schema data model with advanced DAX calculations, the dashboard provides real-time insights into revenue performance, profit margins, inventory optimization, and regional sales patterns.
-
-### **Business Problem Solved**
-Retail businesses struggle with:
-- ❌ Manual, time-consuming reporting processes
-- ❌ Lack of real-time performance visibility
-- ❌ Inventory stockouts and overstock situations
-- ❌ Difficulty comparing performance across locations
-- ❌ Limited insights into profitability by product/category
-
-### **Solution Delivered**
-✅ Automated, real-time analytics dashboard  
-✅ Interactive visualizations with drill-down capabilities  
-✅ Proactive inventory alerts and optimization  
-✅ Comprehensive store and regional performance analysis  
-✅ Profitability tracking at multiple granularities  
+<img src="https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" />
+<img src="https://img.shields.io/badge/Data%20Analytics-Business%20Intelligence-blue?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Status-Completed-success?style=for-the-badge" />
 
 ---
 
-## ✨ Key Features
+### 📈 Executive Retail Analytics Platform
 
-### 📈 **Sales Analytics**
-- Revenue and profit tracking with YoY/MoM growth indicators
-- Product and category performance analysis
-- Sales trends and seasonal pattern identification
-- Discount impact analysis
+Analyze sales performance, inventory health, store profitability, and growth opportunities through interactive business intelligence dashboards built using Power BI, DAX, and Power Query.
 
-### 🏪 **Store Performance**
-- Multi-location performance comparison
-- Regional sales analysis (South, West, North)
-- Store type analysis (Mall, High Street, Standalone)
-- City-level revenue and profitability metrics
+🚀 **Data-Driven Retail Optimization** • 📊 **Interactive Insights** • 💰 **Profitability Tracking** • 📦 **Inventory Intelligence**
 
-### 📦 **Inventory Management**
-- Real-time stock level monitoring
-- Automated low-stock alerts
-- Reorder level tracking
-- Stock value calculation by product and location
-
-### 📊 **Predictive Analytics**
-- Revenue forecasting with confidence intervals
-- Trend analysis and pattern recognition
-- Seasonal decomposition
-- Key influencers identification
-
-### 🎨 **Interactive Features**
-- Dynamic filtering and cross-filtering
-- Drill-through capabilities to detailed pages
-- Custom tooltips with additional metrics
-- Responsive design for desktop and mobile
+</div>
 
 ---
 
-## 📄 Dashboard Pages
+## 🌟 Project Highlights
 
-### 1️⃣ **Executive Overview**
-High-level KPIs and business performance summary
-- **KPI Cards**: Revenue, Profit, Transactions, Average Order Value
-- **Trend Analysis**: Monthly/quarterly revenue trends
-- **Top Products**: Best-selling items by revenue
-- **Category Mix**: Revenue distribution by product category
-- **Store Performance Map**: Geographic visualization
+<table>
+<tr>
+<td width="25%" align="center">
 
-### 2️⃣ **Sales Analysis**
-Detailed product and sales performance insights
-- **Product Performance Matrix**: Revenue, quantity, margin by product and time
-- **Waterfall Chart**: Category contribution to total revenue
-- **Combo Chart**: Quantity vs Revenue analysis
-- **Scatter Plot**: Price vs quantity relationship
-- **Ribbon Chart**: Category ranking changes over time
+### 💰 Revenue Analytics
+Track sales trends, revenue growth, and profitability metrics.
 
-### 3️⃣ **Store Performance**
-Location-based performance evaluation
-- **Store Comparison Table**: Metrics across all locations
-- **Revenue by Category**: Category mix by store
-- **Trend Lines**: Store performance over time
-- **Regional Analysis**: South, West, North comparison
-- **Contribution Analysis**: Store revenue share
+</td>
 
----
+<td width="25%" align="center">
 
-## 📊 Dataset Information
+### 🏪 Store Intelligence
+Compare store performance across regions and formats.
 
-### **Data Sources**
-The dashboard integrates five interconnected datasets:
+</td>
 
-| Table | Records | Time Period | Purpose |
-|-------|---------|-------------|---------|
-| **Sales** | 2,002 | Jan 2022 - Dec 2024 | Transaction-level sales data |
-| **Products** | 10 | - | Product master with categories |
-| **Stores** | 5 | - | Store location information |
-| **Calendar** | 1,098 | Jan 2022 - Dec 2024 | Date dimension for time intelligence |
-| **Inventory** | 42 | Current | Real-time stock levels |
+<td width="25%" align="center">
 
-### **Data Model**
-- **Architecture**: Star Schema
-- **Fact Tables**: Sales, Inventory
-- **Dimension Tables**: Products, Stores, Calendar
-- **Relationships**: 5 active relationships with proper cardinality
-- **Optimization**: Import mode, indexed columns, efficient DAX
+### 📦 Inventory Insights
+Monitor stock levels, reorder alerts, and inventory value.
 
-### **Business Coverage**
-- **🏪 Locations**: 5 stores across 3 regions (South, West, North)
-- **📍 Cities**: Bangalore, Mumbai, Delhi, Hyderabad, Pune
-- **🏬 Store Types**: Mall, High Street, Standalone
-- **📦 Products**: 10 products across 5 categories
-- **🏷️ Categories**: Electronics, Clothing, Grocery, Home, Sports
-- **📅 Time Span**: 3 complete years (2022-2024)
+</td>
+
+<td width="25%" align="center">
+
+### 🔮 Forecasting
+Predict future sales using trend analysis and forecasting.
+
+</td>
+</tr>
+</table>
 
 ---
 
-## 🛠️ Technologies Used
+# 🎯 Business Objective
 
-- **Power BI Desktop** - Data visualization and dashboard development
-- **DAX (Data Analysis Expressions)** - Advanced calculations and measures
-- **Power Query (M)** - Data transformation and ETL
-- **Excel/CSV** - Data source files
-- **Git** - Version control
-- **Markdown** - Documentation
+Retail organizations often struggle with fragmented reporting systems, delayed insights, and inefficient inventory planning.
 
-### **DAX Measures Created**
-- ✅ 20+ custom measures for business metrics
-- ✅ Time intelligence (YoY, MoM, YTD, Rolling averages)
-- ✅ Profitability calculations (Margin %, Gross Profit)
-- ✅ Inventory metrics (Stock value, Low stock alerts)
-- ✅ Performance indicators (AOV, Contribution %)
+This project solves these challenges by providing:
+
+✔ Real-time KPI Monitoring  
+✔ Store-Level Performance Tracking  
+✔ Inventory Optimization Insights  
+✔ Revenue & Profitability Analysis  
+✔ Interactive Executive Reporting
 
 ---
 
-## 🚀 Getting Started
+# 🖥️ Dashboard Preview
 
-### **Prerequisites**
-- Windows 10 or later
-- Microsoft Power BI Desktop (latest version) - [Download here](https://powerbi.microsoft.com/desktop/)
-- 4GB RAM minimum (8GB recommended)
-- 500MB free disk space
+## Executive Overview
 
-### **Quick Start**
-1. Download Power BI Desktop if not already installed
-2. Clone this repository (see Installation section)
-3. Open the `.pbix` file
-4. Refresh data to load from CSV files
-5. Start exploring the dashboard!
+<p align="center">
+<img src="YOUR_SCREENSHOT_LINK" width="90%">
+</p>
 
----
+**Key Metrics**
 
-## 📸 Screenshots
-
-### Executive Overview
-<img width="1542" height="822" alt="Screenshot 2026-01-17 171139" src="https://github.com/user-attachments/assets/febbfd72-990e-4705-b04a-7767ed9c8e6a" />
-*High-level KPIs and performance summary*
-
-### Sales Analysis
-<img width="1543" height="818" alt="Screenshot 2026-01-17 171214" src="https://github.com/user-attachments/assets/877ec550-97bd-4315-82a1-5db888446f12" />
-*Detailed product and category performance*
-
-### Store Performance
-<img width="1536" height="840" alt="Screenshot 2026-01-17 171230" src="https://github.com/user-attachments/assets/1ee27fb1-ffab-4dcf-880f-c3d6215af353" />
-*Location-based insights and regional comparison*
+| KPI | Description |
+|------|------------|
+| 💰 Revenue | Total sales generated |
+| 📈 Profit | Net profit performance |
+| 🧾 Transactions | Total orders processed |
+| 🛒 AOV | Average Order Value |
 
 ---
 
-## 📈 Key Metrics
+## 📊 Analytics Modules
 
-### **Revenue Performance**
-- **Total Revenue**: $3.39M (3 years)
-- **Average Monthly Revenue**: $94K
-- **YoY Growth**: 12.5% average
-- **Peak Season**: Q4 (November-December)
+### 1️⃣ Executive Dashboard
 
-### **Profitability**
-- **Gross Profit**: $1.2M+
-- **Average Profit Margin**: 23.8%
-- **Best Category Margin**: Clothing (38%)
-- **Best Store Margin**: High Street stores (26%)
+- Revenue & Profit Overview
+- KPI Monitoring
+- Top Products
+- Category Performance
+- Geographic Analysis
 
-### **Operations**
-- **Total Transactions**: 2,002
-- **Average Order Value**: $262
-- **Products**: 10 active SKUs
-- **Stores**: 5 locations across 3 regions
+### 2️⃣ Sales Analytics
 
-### **Inventory**
-- **Current Stock Value**: $95K
-- **Stock Turnover**: Optimized 24% reduction
-- **Stockout Rate**: Reduced to <1%
-- **Low Stock Alerts**: Real-time monitoring
+- Product Performance Matrix
+- Revenue Trend Analysis
+- Discount Impact Evaluation
+- Category Contribution Analysis
 
----
+### 3️⃣ Store Intelligence
 
-## 💼 Business Impact
+- Regional Comparison
+- Store Ranking
+- Revenue Distribution
+- Profitability Benchmarking
 
-### **Quantified Results**
+### 4️⃣ Inventory Management
 
-| Metric | Before | After | Improvement |
-|--------|--------|-------|-------------|
-| **Reporting Time** | 8 hours/week | 30 min/week | 90% reduction |
-| **Inventory Value** | $125K | $95K | 24% reduction |
-| **Stockout Rate** | 3/month | 0.5/month | 83% reduction |
-| **Profit Margin** | 20.5% | 23.8% | +3.3 points |
-| **Decision Speed** | 3-5 days | Real-time | Immediate |
-
-### **Annual Value Delivered**
-- 💰 **$19,500** - Time savings (390 hours/year)
-- 💰 **$30,000** - Working capital freed from inventory
-- 💰 **$15,000** - Revenue protection (prevented stockouts)
-- 💰 **$17,300** - Additional profit from margin improvement
-- **Total ROI: $81,800/year**
+- Low Stock Monitoring
+- Stock Value Tracking
+- Inventory Turnover Analysis
+- Reorder Alerts
 
 ---
 
-## 📁 Project Structure
+# 🧠 Advanced DAX Features
 
-```
-retail-sales-powerbi-dashboard/
-│
-├── README.md                          # Project documentation
-├── LICENSE                            # MIT License
-├── .gitignore                         # Git ignore file
-│
-├── data/                              # Data files
-│   ├── raw/                           # Original CSV files
-│   │   ├── calendar.csv              # Date dimension
-│   │   ├── inventory.csv             # Stock levels
-│   │   ├── products.csv              # Product master
-│   │   ├── sales.csv                 # Transaction data
-│   │   └── stores.csv                # Store locations
-│   └── sample/                        # Sample data for testing
-│       └── sample_data.csv
-│
-├── reports/                           # Power BI files
-│   ├── RetailSalesDashboard.pbix     # Main dashboard file
-│   └── RetailSalesDashboard.pdf      # Exported 
-## 💻 Installation
-
-### **Method 1: Download ZIP**
-1. Click the green **"Code"** button above
-2. Select **"Download ZIP"**
-3. Extract the ZIP file to your desired location
-4. Navigate to `reports/RetailSalesDashboard.pbix`
-5. Double-click to open in Power BI Desktop
-
-### **Method 2: Git Clone**
-```bash
-# Clone the repository
-git clone https://github.com/YOUR_USERNAME/retail-sales-powerbi-dashboard.git
-
-# Navigate to the project directory
-cd retail-sales-powerbi-dashboard
-
-# Open the Power BI file
-# Navigate to reports/RetailSalesDashboard.pbix and double-click
+```DAX
+Revenue Growth % =
+DIVIDE(
+    [Current Revenue] - [Previous Revenue],
+    [Previous Revenue]
+)
 ```
 
-### **Method 3: GitHub Desktop**
-1. Download and install [GitHub Desktop](https://desktop.github.com/)
-2. Click **"Code"** → **"Open with GitHub Desktop"**
-3. Choose local path and clone
-4. Open the `.pbix` file from the cloned folder
+```DAX
+Profit Margin % =
+DIVIDE(
+    [Total Profit],
+    [Total Revenue]
+)
+```
+
+```DAX
+Average Order Value =
+DIVIDE(
+    [Total Revenue],
+    [Total Transactions]
+)
+```
 
 ---
 
-## 📖 Usage
+# 🏗️ Data Architecture
 
-### **Opening the Dashboard**
-1. Ensure Power BI Desktop is installed
-2. Open `reports/RetailSalesDashboard.pbix`
-3. Click **"Refresh"** if prompted to load data from CSV files
-
-### **Navigating the Dashboard**
-- Use **page tabs** at the bottom to switch between pages
-- **Click on any visual** to filter other visuals on the page
-- **Right-click** on data points for drill-through options
-- Use **slicers** (dropdowns/buttons) to filter data
-- **Hover over visuals** for detailed tooltips
-
-### **Filtering Data**
-- **Year**: Select 2022, 2023, or 2024
-- **Month**: Choose specific months or ranges
-- **Region**: Filter by South, West, or North
-- **Category**: Select product categories
-- **Store Type**: Filter by Mall, High Street, or Standalone
-- **Date Range**: Use the date range picker for custom periods
-
-### **Exporting Data**
-1. Click on any visual
-2. **More options (...)** → **Export data**
-3. Choose format (CSV or Excel)
-4. Save to your desired location
-
-### **Refreshing Data**
-If you update the CSV files:
-1. **Home tab** → **Refresh**
-2. Power BI will reload data from CSV files
-3. All visuals update automatically
+```text
+                  ┌─────────────┐
+                  │  Calendar   │
+                  └──────┬──────┘
+                         │
+┌────────────┐      ┌────▼────┐      ┌────────────┐
+│ Products   │─────▶│ Sales   │◀────│ Stores     │
+└────────────┘      └────┬────┘      └────────────┘
+                         │
+                  ┌──────▼──────┐
+                  │ Inventory   │
+                  └─────────────┘
+```
 
 ---
 
-## 🎯 Key Insights & Findings
+# 📈 Key Outcomes
 
-### **Sales Insights**
-- 📈 **Q4 Dominance**: November-December generate 40% of annual revenue
-- 💻 **Electronics Leadership**: 35% revenue share, highest category
-- 👕 **Clothing Profitability**: Best margins at 38%
-- 📉 **Discount Impact**: 15%+ discounts reduce margin by 8 points but increase volume by 25%
-
-### **Store Performance**
-- 🏆 **Bangalore Leads**: Top revenue generator (Mall format)
-- 🏙️ **High Street Winner**: Best profit margins (26%)
-- 📍 **Regional Split**: South 47%, West 34%, North 19%
-- 🏬 **Format Analysis**: Mall stores have 45% higher revenue but 20% higher costs
-
-### **Inventory Optimization**
-- ✅ **Stock Reduction**: 24% decrease in inventory value ($125K → $95K)
-- 🔔 **Stockout Prevention**: 83% reduction in stockouts
-- 💰 **Capital Freed**: $30K working capital now available
-- 📊 **Turnover Improved**: Better inventory efficiency across all stores
-
-### **Growth Opportunities**
-- 🎯 **North Region**: Underperforming, expansion opportunity
-- 👔 **Clothing Category**: High margin, expansion candidate
-- 🏪 **High Street Format**: Most profitable, focus on this format
-- 📱 **Electronics**: High volume, opportunity for bundling
+| Metric | Result |
+|----------|---------|
+| Revenue Analyzed | $3.39M |
+| Transactions | 2,002 |
+| Stores | 5 |
+| Categories | 5 |
+| Products | 10 |
+| Time Span | 2022 - 2024 |
 
 ---
 
-## 🔧 Customization
+# 🛠️ Tech Stack
 
-### **Modifying the Dashboard**
+<div align="center">
 
-**To add new measures:**
-1. Go to **Modeling** tab
-2. Click **New Measure**
-3. Write DAX formula
-4. Add to visuals
+| Technology | Purpose |
+|------------|---------|
+| Power BI | Dashboard Development |
+| DAX | Business Calculations |
+| Power Query | ETL & Data Cleaning |
+| Excel / CSV | Data Source |
+| GitHub | Version Control |
 
-**To change visual colors:**
-1. Select the visual
-2. **Format visual** pane → **Visual** → **Colors**
-3. Choose custom colors
-
-**To add new pages:**
-1. Click **+** at bottom
-2. Name the new page
-3. Add visuals from Visualizations pane
-
-**To update data sources:**
-1. **Home** → **Transform Data**
-2. **Power Query Editor** opens
-3. Modify source paths or transformations
-4. Click **Close & Apply**
+</div>
 
 ---
 
-## 🤝 Contributing
+# 🚀 Skills Demonstrated
 
-Contributions are welcome! Here's how you can help:
+### Analytics
+- Sales Analytics
+- Retail Intelligence
+- Profitability Analysis
+- KPI Development
 
-### **How to Contribute**
+### Power BI
+- Data Modeling
+- DAX Measures
+- Power Query
+- Dashboard Design
 
-1. **Fork the repository**
-   ```bash
-   # Click the "Fork" button at the top-right of this page
-   ```
-
-2. **Create a feature branch**
-   ```bash
-   git checkout -b feature/AmazingFeature
-   ```
-
-3. **Make your changes**
-   - Add new features
-   - Fix bugs
-   - Improve documentation
-   - Optimize DAX measures
-
-4. **Commit your changes**
-   ```bash
-   git commit -m 'Add some AmazingFeature'
-   ```
-
-5. **Push to the branch**
-   ```bash
-   git push origin feature/AmazingFeature
-   ```
-
-6. **Open a Pull Request**
-   - Go to your fork on GitHub
-   - Click "Pull Request"
-   - Describe your changes
-
-### **Contribution Ideas**
-- 🎨 New visual designs or layouts
-- 📊 Additional DAX measures or calculations
-- 🐛 Bug fixes or performance improvements
-- 📝 Documentation enhancements
-- 🌐 Translations or localization
-- 🧪 Unit tests for DAX measures
-
----
-## 🐛 Troubleshooting
-
-### **Common Issues**
-
-**Issue: Dashboard won't open**
-- **Solution**: Ensure you have Power BI Desktop installed
-- Download from: https://powerbi.microsoft.com/desktop/
-
-**Issue: Data not loading**
-- **Solution**: Check CSV files are in `data/raw/` folder
-- Click **Refresh** in Power BI
-
-**Issue: Visuals showing errors**
-- **Solution**: Check all relationships are active
-- Go to Model View and verify connections
-
-**Issue: Slow performance**
-- **Solution**: Close other Power BI files
-- Reduce date range using filters
-- Check you have sufficient RAM (8GB recommended)
-
-**Issue: Can't see all data**
-- **Solution**: Click "Reset to default" on filters
-- Check Row-Level Security isn't applied
+### Business Intelligence
+- Executive Reporting
+- Inventory Optimization
+- Trend Analysis
+- Forecasting
 
 ---
 
-## 🏆 Skills Demonstrated
+# 👨‍💻 Author
 
-This project showcases proficiency in:
+### Shridhar Patil
 
-### **Technical Skills**
-- ✅ **Power BI Development** - Dashboard design, visual selection, formatting
-- ✅ **DAX (Data Analysis Expressions)** - Complex measures, time intelligence
-- ✅ **Data Modeling** - Star schema, relationships, optimization
-- ✅ **Power Query** - ETL processes, data transformation
-- ✅ **Data Visualization** - Chart selection, color theory, UX design
-- ✅ **Business Intelligence** - KPI definition, metric selection
+📧 patilshridhar1958@gmail.com
 
-### **Business Skills**
-- ✅ **Retail Analytics** - Sales analysis, inventory management
-- ✅ **Financial Analysis** - Profitability, margin analysis, ROI
-- ✅ **Strategic Thinking** - Opportunity identification, trend analysis
-- ✅ **Communication** - Storytelling with data, executive presentations
+🐙 GitHub: https://github.com/Shridharpatil1958
 
-### **Soft Skills**
-- ✅ **Problem Solving** - Identifying business needs, creating solutions
-- ✅ **Attention to Detail** - Data accuracy, visual polish
-- ✅ **Project Management** - Planning, execution, delivery
-- ✅ **Documentation** - Technical writing, user guides
-
----
-
-## 🔮 Future Enhancements
-
-### **Planned Features (Roadmap)**
-
-**Phase 2** (Q2 2026)
-- 🎯 Customer segmentation (RFM analysis)
-- 🤖 Machine learning forecasting (Azure ML integration)
-- 📱 Mobile app optimization
-- 🔔 Real-time alerts (Power Automate)
-
-**Phase 3** (Q3 2026)
-- 💬 Natural language Q&A
-- 🌐 Multi-currency support
-- 📊 Advanced analytics (Python/R integration)
-- 🔄 Real-time streaming data
-
-**Phase 4** (Q4 2026)
-- 🧠 AI-powered recommendations
-- 🎨 Custom visuals development
-- 📈 Predictive inventory optimization
-- 🔗 ERP system integration
-
----
-
-## 📜 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-### **MIT License Summary**
-- ✅ Commercial use allowed
-- ✅ Modification allowed
-- ✅ Distribution allowed
-- ✅ Private use allowed
-- ❗ License and copyright notice required
-- ❗ No warranty provided
-
----
-
-## 👤 Author
-
-**Shridhar Patil**
-
-- 🌐 Portfolio: [yourwebsite.com](https://chrono-skill-viz.lovable.app/)
-- 💼 LinkedIn: [linkedin.com/in/yourprofile](www.linkedin.com/in/shridhar-patil-908480220)
-- 🐙 GitHub: [@yShridharpatil1958](https://github.com/Shridharpatil1958)
-- 📧 Email: patilshridhar1958@gmail.com
-
----
-
-## 📊 Project Statistics
-
-- **Development Time**: 6 weeks
-- **Lines of DAX**: 500+
-- **Visualizations**: 35+ across 5 pages
-- **Data Points**: 2,000+ transactions
-- **Time Period**: 3 years (2022-2024)
-- **Geographic Coverage**: 5 cities, 3 regions
-- **Product Coverage**: 10 products, 5 categories
-
----
-
-## 🌟 Star This Repository
-
-If you find this project useful, please consider giving it a ⭐!
-
-It helps others discover the project and motivates continued development.
-
----
-
-## 🔄 Version History
-
-### **v1.0.0** (January 2026)
-- ✅ Initial release
-- ✅ 3 interactive dashboard pages
-- ✅ 20+ DAX measures
-- ✅ Complete documentation
-- ✅ Professional backgrounds
-
-### **v0.9.0** (December 2025)
-- ✅ Beta release
-- ✅ Core features implemented
-- ✅ User testing completed
-
+🌐 Portfolio: https://chrono-skill-viz.lovable.app/
 
 ---
 
 <div align="center">
 
-**Made with ❤️ and Power BI**
+### ⭐ If you found this project useful, consider starring the repository.
 
-⭐ **Star this repo** if you find it helpful!
+**Built with Power BI • DAX • Business Intelligence**
+
+</div>
